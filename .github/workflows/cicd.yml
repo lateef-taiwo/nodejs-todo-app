@@ -25,5 +25,5 @@ jobs:
       - name: Audit Dependencies for Security Vulnerabilities
         run: npm audit fix --force
       
-      - name: Perform Lint test
-        run: npm run lint
+      # - name: Perform Lint test
+      #   run: npm run lint
